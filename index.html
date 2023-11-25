@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ours - Social Media</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item" onclick="navigate('Home')">Home</div>
+            <div class="sidebar-item" onclick="navigate('Categories')">Categories</div>
+            <div class="sidebar-item" onclick="navigate('Explore')">Explore</div>
+            <div class="sidebar-item" onclick="navigate('Video')">Video</div>
+            <div class="sidebar-item" onclick="navigate('Submit')">Submit</div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="user-info">
+                    <span class="user-count" id="userCount">0 Users Onlie</span>
+                </div>
+                <div class="public-link">
+                    <span>Public Link:</span>
+                    <input type="text" value="yourwebsite.com" readonly>
+                </div>
+            </div>
+            <div class="post-area" id="postArea">
+                <!-- Posts will be dynamically added here using JavaScript -->
+            </div>
+            <div class="post-form">
+                <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                <button onclick="sendPost()">Post</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
