@@ -20,5 +20,3 @@ Ours is a social media website where users can share posts, explore content, and
 To run this project locally, clone the repository and open `index.html` in a web browser.
 
 ```bash
-git clone https://github.com/your-username/Ours-Social-Media.git
-cd Ours-Social-Media
